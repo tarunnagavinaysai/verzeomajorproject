@@ -1,0 +1,60 @@
+
+.pricing-table{
+  background-color: #fff;
+  padding: 100px 0;
+}
+.pricing-table .heading {
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+
+}
+
+.pricing-table .item {
+  background-color: #ffffff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+  border-top: 5px solid #108d6f;;
+  padding: 30px;
+  overflow: hidden;
+  position: relative;
+}
+.features ul{
+  margin:0;
+  padding:2;
+}
+.features ul li {
+    list-style: none;
+    text-align: center;
+    padding: 4px;
+    font-size: 16px;
+    /* color: #0099cc; */
+     /* font-family: Arial, Helvetica, sans-serif; */
+}
+.pricing-table .item p {
+  text-align: center;
+  margin-top: 20px;
+  opacity: 0.7;
+  padding: 0;
+  margin: 24px 0;
+  color:black;
+}
+.pricing-table .price h4 {
+  margin: 18px 0;
+  font-size: 35px;
+  text-align: center;
+  color: #000000;
+}
+
+.pricing-table .table h2{
+        color:#392613;
+	text-align:center;
+       text-shadow: 2px 2px 5px #b3e6ff;
+	font-size:40px;
+        text-decoration: none;
+	text-shadow: 2px 2px 5px #ffffff;
+
+}
+.pricing-table .table h3{
+color : #392613;
+text-shadow: 2px 2px 5px  white;
+}

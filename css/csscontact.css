@@ -1,0 +1,65 @@
+.special-card{
+    background-color: rgba(0,0,0,.2);
+} 
+#more {display: none;}
+.h5{
+    text-align: center;
+  }
+  input[type=text]{
+    background-color: transparent;
+  } 
+  input[type=email]{
+    background-color: transparent;
+  } 
+  textarea.form-control{
+    background-color: transparent;
+  }
+.h4{
+  animation-duration: 8s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+} 
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0rem;
+  background: #ffffff;
+  margin-bottom: 2rem;
+} 
+
+.card h3 {
+  margin-bottom: 2rem;
+}
+
+.card img {
+  height: 600px;
+}
+
+/* .card > div {
+  padding: 1rem;
+} */
+
+.card:nth-child(even) img {
+  order: 2;
+}
+
+
+.btn1 {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  padding: 0.8rem 1.8rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  opacity: 0.8;
+} 
+
+@media(max-width:600px) {
+  .card {
+    display: block;
+  }
+}
